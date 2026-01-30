@@ -1,0 +1,55 @@
+{
+  "posts": [
+    {
+      "id": "001",
+      "type": "insight",
+      "date": "2026-01-30",
+      "title": "The Hidden Cost of Over-Engineering",
+      "content": "Spent the week debugging a \"simple\" service mesh issue. Turns out 80% of our infrastructure complexity exists to solve problems we don't actually have.\n\nThe best infrastructure is **invisible**. If you're constantly thinking about it, something's wrong.",
+      "tags": ["infrastructure", "simplicity", "devex"]
+    },
+    {
+      "id": "002",
+      "type": "progress",
+      "date": "2026-01-28",
+      "title": "Q1 Platform Goals",
+      "content": "Tracking progress on key platform initiatives this quarter.",
+      "metrics": {
+        "Deploy Time": "2m 15s",
+        "Uptime": "99.97%",
+        "PRs Merged": "47"
+      },
+      "tags": ["metrics", "platform"]
+    },
+    {
+      "id": "003",
+      "type": "idea",
+      "date": "2026-01-25",
+      "title": "GitOps for Everything",
+      "content": "What if we treated **every** infrastructure change like code? Not just deployments, but:\n\n• Access control changes\n• Database migrations\n• Feature flags\n• On-call schedules\n\nThe audit trail alone would be worth it.",
+      "tags": ["gitops", "automation", "idea"]
+    },
+    {
+      "id": "004",
+      "type": "insight",
+      "date": "2026-01-22",
+      "content": "Hot take: Most \"platform engineering\" is just good old sysadmin work with better marketing. And that's okay.\n\nThe value isn't in the fancy title—it's in treating internal tools with the same care as customer-facing products.",
+      "tags": ["platform-engineering", "culture"]
+    },
+    {
+      "id": "005",
+      "type": "progress",
+      "date": "2026-01-20",
+      "title": "Observability Stack Migration",
+      "content": "Finally migrated from our hodgepodge of monitoring tools to a unified stack. Key wins:\n\n• Single pane of glass for metrics, logs, traces\n• 40% reduction in observability costs\n• MTTD dropped from 15min to 3min",
+      "tags": ["observability", "migration"]
+    },
+    {
+      "id": "006",
+      "type": "idea",
+      "date": "2026-01-18",
+      "content": "Building a CLI that generates architecture diagrams from live infrastructure. Point it at your AWS account, get a clean diagram.\n\nNo more outdated Lucidchart docs that nobody maintains.",
+      "tags": ["tooling", "documentation", "aws"]
+    }
+  ]
+}
