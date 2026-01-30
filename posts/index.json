@@ -1,34 +1,3 @@
 {
-  "posts": [
-    {
-      "date": "2026-01-30",
-      "content": "Spent the week debugging a service mesh issue. Turns out 80% of our infrastructure complexity exists to solve problems we don't actually have.\n\nThe best infrastructure is **invisible**. If you're constantly thinking about it, something's wrong.",
-      "tags": ["infrastructure", "simplicity"]
-    },
-    {
-      "date": "2026-01-28",
-      "content": "Shipped a new deploy pipeline. Down from 15 minutes to 2m 15s. The secret? Removed three \"optimization\" layers that were actually slowing things down.",
-      "tags": ["platform", "deploys"]
-    },
-    {
-      "date": "2026-01-25",
-      "content": "What if we treated **every** infrastructure change like code? Not just deployments, but access control changes, database migrations, feature flags, on-call schedules.\n\nThe audit trail alone would be worth it.",
-      "tags": ["gitops", "automation"]
-    },
-    {
-      "date": "2026-01-22",
-      "content": "Hot take: Most \"platform engineering\" is just good old sysadmin work with better marketing. And that's okay.\n\nThe value isn't in the fancy title—it's in treating internal tools with the same care as customer-facing products.",
-      "tags": ["platform-engineering", "culture"]
-    },
-    {
-      "date": "2026-01-20",
-      "content": "Finally migrated from our hodgepodge of monitoring tools to a unified observability stack. Single pane of glass for metrics, logs, traces. 40% cost reduction. MTTD dropped from 15min to 3min.",
-      "tags": ["observability", "migration"]
-    },
-    {
-      "date": "2026-01-18",
-      "content": "Building a CLI that generates architecture diagrams from live AWS infrastructure. Point it at your account, get a clean diagram.\n\nNo more outdated Lucidchart docs that nobody maintains. [Early prototype](https://github.com/saixso/infra-viz)",
-      "tags": ["tools", "aws", "documentation"]
-    }
-  ]
+  "posts": []
 }
