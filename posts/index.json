@@ -1,9 +1,3 @@
 {
-  "posts": [
-    {
-      "date": "2026-02-01",
-      "content": "One pattern that made sense for the AI Agent: don't send prompts in API requests. Send keys.\n\n`POST /diagnostics?prompt_id=diagnose` → Registry → Factory → Prompt\n\nWhy:\n- Prompts evolve without API changes\n- No prompt injection risk\n- Client code never changes\n- Prompt engineers edit markdown, not deployments\n\nStrategy Pattern + Registry = prompts as content, not code.\n\n[network-triage-ai-agent](https://github.com/SpotOnInc/network-triage-ai-agent)",
-      "tags": ["ai", "patterns", "architecture"]
-    }
-  ]
+  "posts": []
 }
